@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryDark">#6200EA</color>
+    <color name="colorAccent">#6200EA</color>
+    <color name="colorAccent1">#A66AFF</color>
+    <color name="timecolor">#00BFA5</color>
+    <color name="bookcolor">#FFA000</color>
+    <color name="bookcolor1">#7CFD5353</color>
+    <color name="blue">#0177ff</color>
+    <color name="white">#ffffff</color>
+    <color name="book_toolbar_ticket_color">#7ae966</color>
+    <color name="disable_color">#DBDBDB</color>
+    <color name="light_text_color">#939393</color>
+    <color name="black">#1b1b1b</color>
+    <color name="buttonblue">#0078ff</color>
+    <color name="login_btn_color">#fa6839</color>
+    <color name="transparent_colour">#bff4f2f2</color>
+    <color name="bd_options_button_bg">#CFAF63</color>
+    <color name="bd_options_button_click">#a6bccf</color>
+    <color name="cdcolor">#FF9F5A</color>
+    <color name="login_btn_color1">#ABFA6839</color>
+    <color name="transparent_black">#99181818</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="cardview_colour">#DEE2E2E2</color>
+    <color name="purple">#70C4FF</color>
+    <color name="pink">#f5f6f7</color>
+    <color name="assets">#8B5978</color>
+    <color name="red">#D32F2F</color>
+
+
+</resources>

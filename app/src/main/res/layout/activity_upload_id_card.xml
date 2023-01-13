@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".upload_id_card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:id="@+id/savepdf_layout"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:gravity="bottom"
+                android:background="@drawable/idbg"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:fontFamily="@font/ruda"
+                    android:textColor="@color/black"
+                    android:id="@+id/name_t"
+                    android:text="BOOPATHI V"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:id="@+id/id_t"
+                    android:fontFamily="@font/ruda"
+                    android:textColor="@color/black"
+                    android:text="MAH2603"/>
+                <ImageView
+                    android:id="@+id/img_takeimg"
+                    android:layout_width="180dp"
+                    android:layout_gravity="end"
+                    android:scaleType="fitXY"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_height="180dp"
+                    android:visibility="gone"/>
+
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:id="@+id/img_takeimg1"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="end"
+                    android:scaleType="fitXY"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_removebg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT IMAGE" />
+
+            <ImageView
+                android:id="@+id/img_removebgimg"
+                android:layout_width="200dp"
+                android:layout_margin="10dp"
+                android:layout_height="200dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save PDF" />
+
+
+            <LinearLayout
+                android:id="@+id/savepdf1_layout"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/ubuntu_medium"
+                        android:textColor="@color/black"
+                        android:text="Date of Birth : "/>
+
+                    <TextView
+                        android:id="@+id/dob_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:layout_marginStart="5dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/ruda"
+                        android:textColor="@color/black"
+                        android:text="04-Apr-1986"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/ubuntu_medium"
+                        android:textColor="@color/black"
+                        android:text="Blood Group :"/>
+
+                    <TextView
+                        android:id="@+id/bg_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="5dp"
+                        android:textSize="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/ruda"
+                        android:textColor="@color/black"
+                        android:text="B+"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="5dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textColor="@color/black"
+                    android:background="@drawable/bottom_border"
+                    android:text="Residential Address"/>
+
+                <TextView
+                    android:id="@+id/add_t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:padding="2dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:textColor="@color/black"
+                    android:text="TCMS NEAR SURIYAGOUNDAM PALAYAM NAMAKKAL TAMILNADU 637503"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="15dp"
+                    android:padding="2dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textColor="@color/black"
+                    android:text="If found please return to"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="2dp"
+                    android:padding="2dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:textColor="@color/black"
+                    android:text="Mahendra NextWealth IT India Private Limited\nMahendrapuri\nMallasamudram (W)\nThiruchengode (TK)\nNamakkal - 637503\nTamil Nadu\n\nPh: 04288 - 288509, 288510\n\nWebsite : www.mnxw.org"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

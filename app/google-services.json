@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "978640391232",
+    "project_id": "mpulse1-23402",
+    "storage_bucket": "mpulse1-23402.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978640391232:android:ea34c7f54401001fba23a5",
+        "android_client_info": {
+          "package_name": "mahendra.school.mpulse1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978640391232-v6f63ujsh8faq98rb9vpj4pb36k78pfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mahendra.school.mpulse1",
+            "certificate_hash": "52b75810bcd095ebd606e82e683a4b279befb52f"
+          }
+        },
+        {
+          "client_id": "978640391232-lndlhh2cdrjsfdskfaidldgku8gtlvaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WCfjFMkS1EOk2TSJiHVy9rwxleUYClE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978640391232-lndlhh2cdrjsfdskfaidldgku8gtlvaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

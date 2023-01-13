@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/hc"
+        android:title="HOLIDAY CALENDER"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/location"
+        android:title="ADD LOCATION"
+        android:icon="@drawable/ic_baseline_my_location_24"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/ic_face_black_24dp"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/logout"
+        android:title="logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>
